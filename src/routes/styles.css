@@ -1,0 +1,45 @@
+@import '@fontsource/fira-mono';
+* {
+  outline: none;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-size: 16px;
+}
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: system-ui, -apple-system;
+}
+
+a {
+	text-decoration: none;
+}
+
+input,
+button {
+	font-size: inherit;
+	font-family: inherit;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none !important;
+}
+
+button:focus:not(:focus-visible) {
+	outline: none;
+}
+
+ul, li {
+  list-style: none;
+}
+
+@media (min-width: 720px) {
+	h1 {
+		font-size: 2.4rem;
+	}
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
